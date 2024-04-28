@@ -3701,6 +3701,14 @@ a[href^="https://maps.google.com/maps"] {
   height: auto;    /* Maintain aspect ratio */
   
 }
+.restaurant-section .single-blog-style-one .image-box img {
+  /* Your styles for Gmail and Movie section images go here */
+  width: 100%; /* Adjust the width property as needed */
+  object-fit: cover;
+  object-position: center; /* Remove max-width if you want to allow larger widths */
+  height: 230px;    /* Maintain aspect ratio */
+  
+}
 .firstway-section .single-blog-style-one .image-box img {
   object-fit: cover;
   width: 100%;
@@ -3852,9 +3860,22 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .single-blog-page .featured-image-box img {
-  max-width: 30%;
+  max-width: 45%;
   height: 50%;
   margin: 10px; 
+}
+.single-blog-page .featuredd-image-box img {
+  max-width: 65%;
+  height: 50%;
+  margin: 10px; 
+}
+.single-blog-page .featuredd-image-box {
+  overflow: hidden;
+  border-radius: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .single-blog-pagee .featured-image-box{
   overflow: hidden;
