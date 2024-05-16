@@ -5632,10 +5632,10 @@ a[href^="https://maps.google.com/maps"] {
   margin-bottom: 52px;
 }
 
-.about-style-one .featured-image-box .img-box {
-  overflow: hidden;
-  border-radius: 8px;
-  margin-bottom: 20px;
+.img-box img {
+  max-width: 80%;
+  height: auto;
+  margin-left: 60px;
 }
 
 .about-style-one .featured-image-box .text-box {
